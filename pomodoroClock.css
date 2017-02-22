@@ -1,0 +1,132 @@
+
+
+
+body {
+	
+	background-image: url("http://polytopia.net/pomodoroClock.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	color: white;
+	font-family: "Montserrat";
+	background-color: rgba(0,0,0,0.8); 
+    background-blend-mode:overlay;
+}
+
+#mainTitle {
+	font-size: 4em;
+	margin-top: 120px;
+}
+
+h2 {  /*inline display needed for horizontal display of buttons, titles and time output */
+	
+	display: inline; 
+	width: 300px;
+}
+
+#start {
+	
+	margin: 20px; 
+	
+}
+
+
+#reset {
+
+	margin-top: 30px;
+}
+
+.btn {
+	
+	margin: 15px;  
+	border: 0 none;
+	
+}
+
+/* Time display for Session and Brake Times */
+
+#timeType1, #timeType2, #timeType3, #num, #breakNum, #numberOfIntervals {
+	font-size: 3em;
+    margin:auto;
+}
+
+
+#title4 {
+	
+	margin-top: -7px;
+}
+
+/* Canvas CS for progress bars */
+
+#pomoCanvas {
+	
+/*	position: absolute;  
+	top: 47%;
+	left: 40%;  */ 
+	
+ /*  border:5px dashed #CCC; */  
+/*    display: block; */
+
+
+/*	width: 40%;
+	height: 40%; */ 
+}
+
+
+#pomoCanvas1 {
+	
+/*	position: absolute;  
+	top: 47%;
+	left: 40%;  */ 
+	
+/*    border:5px dashed #CCC; */ 
+	/*padding: 0; */
+  /*  display: block;   */
+
+/*	width: 40%;
+	height: 40%; */ 
+}
+
+/*
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+}
+
+*/
+
+canvas {
+    padding: 0;
+    margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 24%; 
+    display: block;
+	
+/*	border:5px dashed #CCC; */
+	
+/*	width: 600px;
+	height: 300px; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

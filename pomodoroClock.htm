@@ -1,0 +1,53 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Project #8 Pomodoro Clock</title>
+        <meta name="description" content="Pomodoro Clock Project">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> 
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="pomodoroClock.css">  
+        <audio id="buzzer" src="http://polytopia.net/alarm-buzzer.mp3" type="audio/mpeg"></audio>
+<!-- 
+
+-->    
+    </head>
+    <body>
+        <div class="text-center">
+			<h1 id="mainTitle">Build a Pomodoro Clock</h1>
+			<h3>Free Code Camp Advanced Front End Projects</h3>
+			<div id="timeDiv">  <!-- Div for Session Time Display and adjustments   -->            
+				<h1 id="title1">Session Time (Min)</h1>
+				<button class="btn btn-primary" id="minusClock">-</button>
+				<h2 id="timeType1"></h2>
+				<h2 id="num">1</h2>  	
+				<button class="btn btn-primary" id="addClock">+</button>
+			</div>
+			<div id ="breakDiv">   <!-- Div for Break Time Display and adjustments   -->     
+				<h1 id="title2">Break Time (Min)</h1>
+				<button class="btn btn-primary" id="minusBreak">-</button>
+				<h2 id="timeType2"></h2>
+				<h2 id="breakNum">1</h2>  
+				<button class="btn btn-primary" id="addBreak">+</button>	
+			</div>
+			<div id ="intervalDiv">   <!-- Div for number of Intervals (session + brake)  -->     
+				<h1 id="title3">No of Periods </h1>
+				<h3 id="title4">(Session + Brake)</h3>
+				<button class="btn btn-primary" id="minusIntervals">-</button>
+				<h2 id="timeType3"></h2>
+				<h2 id="numberOfIntervals">2</h2>  
+				<button class="btn btn-primary" id="addIntervals">+</button>	
+			</div>
+			<button class="btn btn-primary" id="start">Start</button>
+		</div>
+		<div class="text-center">
+        <button class="btn btn-danger" id="reset">Cancel / Reset</button>
+		</div>
+		<div id="divCanvas"><canvas id="pomoCanvas"></canvas></div>
+		<div id="divCanvas1"><canvas id="pomoCanvas1"></canvas></div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+       <script src="pomodoroClock.js"></script>
+        
+    </body>
+</html>
